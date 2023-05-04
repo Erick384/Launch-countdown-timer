@@ -14,6 +14,20 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 2rem;
+    border-radius: 5px;
+    height: 50vh;
+    width: 45vw;
+    background-image: url(./images/bg-stars.svg);
+    background-image: url(./images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top{
+    display: flex;
+    align-self: center;
 }
 .timer{
     display: flex;
