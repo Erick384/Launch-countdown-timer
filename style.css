@@ -19,11 +19,12 @@ body{
     border-radius: 5px;
     height: 50vh;
     width: 45vw;
-    background-image: url(./images/bg-stars.svg);
-    background-image: url(./images/pattern-hills.svg);
+    background-image: url(./images/bg-stars.svg) , url(./images/pattern-hills.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
+    /* background-position: top, bottom; */
+    /* background-size: 50% auto; */
 }
 .top{
     display: flex;
